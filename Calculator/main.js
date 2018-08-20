@@ -13,13 +13,13 @@ function func(e) {
     }
 }
 
-function f(a) {
+function addingDigit(a) {
     console.log(a);
     a = document.getElementById("input-id").value + a;
     document.getElementById("input-id").value = a;
 }
 
-function f1() {
+function clearingDigit() {
     document.getElementById("input-id").value = "";
     document.getElementById("input-id").placeholder = "Enter number";
     document.getElementById("input-expression").value = "";
