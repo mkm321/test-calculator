@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <main class="main-content">
+        <header>
+            <section class="header-content">
+                CALCULATOR
+            </section>
+        </header>
+        <article>
+            <section class="input-section">
+                <input id="input-id" class="input-class" onkeypress="func(event)" type="text" placeholder="Enter number">
+            </section>
+            <section class="sub">
+                <input id="input-expression" class="input-class-2" type="text" placeholder="Enter Mathematical expression">
+                <button class="submit" onclick="submit()">Submit</button>
+            </section>
+            <section class="section-button">
+                <button onclick="f1()">CLR</button>
+                <button onclick="f(0)">0</button>
+                <button onclick="subtraction()">-</button>
+                <button onclick="addition()">+</button>
+            </section>
+            <section class="section-button">
+                <button onclick="f(7)">7</button>
+                <button onclick="f(8)">8</button>
+                <button onclick="f(9)">9</button>
+                <button onclick="divide()">/</button>
+            </section>
+            <section class="section-button">
+                <button onclick="f(4)">4</button>
+                <button onclick="f(5)">5</button>
+                <button onclick="f(6)">6</button>
+                <button onclick="multiply()">*</button>
+            </section>
+            <section class="section-button">
+                <button onclick="f(1)">1</button>
+                <button onclick="f(2)">2</button>
+                <button onclick="f(3)">3</button>
+                <button id="click" onclick="result()">=</button>
+            </section>
+        </article>
+        <footer>
+            <button class="footer-class" onclick="history()">HISTORY</button>
+            <section>
+                <p id="history">Hello</p>
+            </section>
+        </footer>
+    </main>
+</body>
+
+</html>
